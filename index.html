@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="nav">
             <nav>
                 <ul>
@@ -22,12 +22,34 @@
             </nav>
         </div>
     </header>
-<main>
-    <a href="/">Welcome</a>
-    <h1>{{ $name }}</h1>
-</main>
-<footer>
-    <p>&copy; 2024 Open Dag. All rights reserved.</p>
-</footer>
+    <main class="main">
+        <div id="home" class="section">
+            <h1>Home</h1>
+            <p>Welcome to our Open Dag event!</p>
+        </div>
+        <div id="schedule" class="section">
+            <h1>Schedule</h1>
+            <p>Details about the event schedule.</p>
+        </div>
+        <div id="speaker" class="section">
+            <h1>Speaker</h1>
+            <p>Information about the speakers.</p>
+        </div>
+        <div id="contact" class="section">
+            <h1>Contact</h1>
+            <p>How to contact us.</p>
+        </div>
+        <div id="signup" class="section">
+            <h1>Signup</h1>
+            <p>Sign up for the event.</p>
+        </div>
+        <div id="login" class="section">
+            <h1>Login</h1>
+            <p>Login to your account.</p>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>© 2024 Open Dag. All rights reserved.</p>
+    </footer>
 </body>
 </html>
