@@ -53,3 +53,7 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
+#login{
+    margin-bottom: 80px;
+}
