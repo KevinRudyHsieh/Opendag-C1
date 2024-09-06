@@ -57,3 +57,21 @@ html {
 #login{
     margin-bottom: 80px;
 }
+#docenten{
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+}
+.images img {
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
