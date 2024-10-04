@@ -13,7 +13,8 @@ body {
 
 .nav ul {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start; /* Verplaats de elementen naar links */
+    align-items: center;
     list-style: none;
     padding: 0;
 }
@@ -21,11 +22,15 @@ body {
 .nav ul li {
     margin: 0 1rem;
 }
-
+/* Hover-effect voor de navigatielinks */
+.nav ul li a:hover {
+    color: grey; /* Verander de kleur naar een lichtere tint */
+}
 .nav ul li a {
     color: white;
     text-decoration: none;
 }
+
 
 .main {
     display: grid;
@@ -93,4 +98,9 @@ body {
     width: 100%;
     background-size: cover;
     background-attachment: fixed;
+}
+#curio-logo {
+    height: 50px;
+    margin-left: 20px; /* Voeg wat ruimte toe aan de linkerkant */
+    margin-right: 40px; /* Vergroot de ruimte aan de rechterkant */
 }
